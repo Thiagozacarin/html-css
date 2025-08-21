@@ -1,0 +1,109 @@
+@charset 'UTF-8';
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #c5ebd6;
+    margin: auto;
+
+}
+
+@font-face {
+    font-family: 'bebas';
+    src: url('bebas/Bebas-Regular.ttf') format('truetype');
+
+}
+
+
+header {
+    background-color: rgb(46, 165, 100);
+    height: 250px;
+    width: 2000px;
+    color: white;
+    text-align: center;
+    border: none;
+    min-height: 150px;
+    padding-top: 40px;
+    background-image: linear-gradient(to top, var(--cor5), var(--cor3));
+
+    
+    
+    
+}
+
+header > h1 {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+header > p {
+    font-size: bold;
+    color: white;
+
+}
+
+
+nav {
+    color: var(--cor1);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+    text-align: left;
+}
+
+article {
+    min-height: 150px;
+    padding-top: 40px;
+    height: auto;
+    width: 1040px;
+    margin: auto;
+    background-color: white;
+}
+
+article > h1 {
+    font-family: 'idroid', cursive;
+    color: #063d1e;
+    text-align: left;
+
+}
+
+h2 {
+    color: #063d1e;
+    font-family: 'idroid', cursive;
+    text-align: left;
+    margin: 15px;
+    height: 25px;
+    width: 1000px;
+    background-color: #83e1ad;
+    color: #1a5c37;
+}
+
+#principal {
+    color: white;
+    background-color: #063d1e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article > div > h2 {
+    margin: left;
+    width: 1040px;
+    height: 40px;
+}
+
+article > div  {
+    background-color: #83e1ad;
+}
+
+aside {
+    width: 1040px;
+    background-color: #063d1e;
+    margin: auto;
+
+}
+
+aside > iframe {
+    height: 500px;
+    width: 900px;
+
+}
