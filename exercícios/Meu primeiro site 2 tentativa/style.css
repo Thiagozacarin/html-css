@@ -1,0 +1,221 @@
+@charset 'UTF-8';
+
+body {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c5ebd6;
+    
+}
+
+@font-face {
+    font-family: 'bebas';
+    src: url('bebas/Bebas-Regular.ttf') format('truetype');
+}
+
+header {
+    background-color: #063d1e;
+    text-align: center;
+    color: white;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    background-image: linear-gradient(to top, #063d1e, #1a5c37, #2fa866, #2fa866); 
+    min-height: 150px;
+    padding-top: 40px;
+    
+}
+
+header > h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
+    margin-top: auto;
+    
+
+}
+
+header > p {
+    color: white;
+    font-size: 1.2em;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
+    padding-bottom: 20px; 
+    text-align: center;
+}
+
+nav {
+    background-color: #063d1e;
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.308);
+    
+}
+
+nav > a {
+    padding-left: 10px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+    border-radius: 5px;
+
+} 
+
+nav > a:hover {
+    color: #063d1e;
+    background-color: #3ddc84;
+}
+
+main {
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    min-width: 400px;
+    max-width: 800px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 0px 0px 10px 10px;
+    
+}
+
+main > h1 {
+    text-align: left;
+    margin: auto;
+    font-family: 'idroid';
+    color: #063d1e;
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+h2 {
+    font-family: 'idroid';
+    text-align: left;
+    color: #1a5c37;
+    font-size: 1.5em;
+    font-weight: 100;
+    background-color: #83e1ad;
+    background-image: linear-gradient(to right, #83e1ad, white);
+}
+
+p {
+    text-align: justify;
+    margin: 15px 0px;
+    text-indent: 30px;
+    line-height: 2em;
+}
+
+
+
+img {
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+}
+
+.bugdroid {
+    max-width: 350px;
+}
+
+strong {
+    color: #1a5c37;
+}
+
+p > a {
+    background-color: #83e1ad;
+    text-decoration: none;
+    
+}
+
+div {
+    background-color: #063d1e; 
+    width: 800px; 
+    padding: 20px;
+    margin: auto;
+    margin-left: -20px;
+}
+
+div > iframe {
+    margin: auto;
+    width: 750px;
+    height: 400px;
+}
+
+aside > h3 {
+    background-color: #1a5c37;
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+}
+
+aside {
+    background-color: #83e1ad;
+    border-radius: 10px;
+
+}
+
+aside > p {
+    padding: 10px;
+    margin-top: -10px;
+}
+
+ul {
+    text-align: left;
+    list-style-position: left;
+    columns: 2;
+    list-style-type: '\2714\00A0\00A0';
+    
+}
+
+aside > p > a {
+    font-weight: bold;
+    color: #063d1e;
+    text-decoration: none;
+}
+
+footer {
+    font-size: small;
+    background-color: #063d1e;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+footer > p {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.mulher {
+    height: 200px;
+    width: 740px;
+    padding: 0px;
+}
+
+.arrumar {
+    font-weight: bold;
+    color: #063d1e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
